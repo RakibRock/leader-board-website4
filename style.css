@@ -45,5 +45,6 @@ body {
 .course:hover {
   cursor: pointer;
   background-color: #bcadff;
-  transition: 0.2s ease-in-out;
+  transform: scale(1.05);
+  transition: 0.1s ease-in-out;
 }
