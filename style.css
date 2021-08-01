@@ -1,6 +1,12 @@
 .round {
   border-radius: 14px;
 }
+.round-5 {
+  border-radius: 30px;
+}
+img:hover {
+  color: #562eff;
+}
 
 /* navigation */
 .nav-padding {
@@ -23,4 +29,21 @@ body {
 
 .round {
   border-radius: 18px;
+}
+.top-players-name {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.yellow {
+  color: #ffc014;
+}
+.orange {
+  background-color: #ffe4e8;
+}
+
+.course:hover {
+  cursor: pointer;
+  background-color: #bcadff;
+  transition: 0.2s ease-in-out;
 }
